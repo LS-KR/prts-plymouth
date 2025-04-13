@@ -144,7 +144,7 @@ fun dialog_setup()
 
     entry.sprite = Sprite(entry.image);
     entry.x = lock.x + lock.image.GetWidth();
-    entry.y = box.y + box.image.GetHeight()/1.1 - entry.image.GetHeight()/1.1;
+    entry.y = box.y + box.image.GetHeight()/1.1 - entry.image.GetHeight()/1.1 - 2.5;
     entry.z = box.z + 1;
     entry.sprite.SetPosition(entry.x, entry.y, entry.z);
 
