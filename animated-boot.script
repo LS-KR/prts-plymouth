@@ -202,7 +202,7 @@ Plymouth.SetDisplayPasswordFunction(display_password_callback);
 
 fun refresh_callback ()
   {
-    vis_sprite.SetImage(vis_image[Math.Int(progress / 3) % 296]);
+    vis_sprite.SetImage(vis_image[Math.Int(progress / 3) % 105]);
     progress++;
   }
 
