@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=PRTS
+Description=Rhodes Island PRTS loading slash animation
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/prts/img
+ScriptFile=/usr/share/plymouth/themes/prts/animated-boot.script

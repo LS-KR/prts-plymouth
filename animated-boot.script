@@ -1,0 +1,209 @@
+ # Nice colour on top of the screen fading to
+Window.SetBackgroundTopColor (0.0, 0.00, 0.0);
+
+# an equally nice colour on the bottom
+Window.SetBackgroundBottomColor (0.0, 0.00, 0.0);
+
+# Image animation
+vis_image[1] = Image("1200150001.png");
+vis_image[2] = Image("1200150002.png");
+vis_image[3] = Image("1200150003.png");
+vis_image[4] = Image("1200150004.png");
+vis_image[5] = Image("1200150005.png");
+vis_image[6] = Image("1200150006.png");
+vis_image[7] = Image("1200150007.png");
+vis_image[8] = Image("1200150008.png");
+vis_image[9] = Image("1200150009.png");
+vis_image[10] = Image("1200150010.png");
+vis_image[11] = Image("1200150011.png");
+vis_image[12] = Image("1200150012.png");
+vis_image[13] = Image("1200150013.png");
+vis_image[14] = Image("1200150014.png");
+vis_image[15] = Image("1200150015.png");
+vis_image[16] = Image("1200150016.png");
+vis_image[17] = Image("1200150017.png");
+vis_image[18] = Image("1200150018.png");
+vis_image[19] = Image("1200150019.png");
+vis_image[20] = Image("1200150020.png");
+vis_image[21] = Image("1200150021.png");
+vis_image[22] = Image("1200150022.png");
+vis_image[23] = Image("1200150023.png");
+vis_image[24] = Image("1200150024.png");
+vis_image[25] = Image("1200150025.png");
+vis_image[26] = Image("1200150026.png");
+vis_image[27] = Image("1200150027.png");
+vis_image[28] = Image("1200150028.png");
+vis_image[29] = Image("1200150029.png");
+vis_image[30] = Image("1200150030.png");
+vis_image[31] = Image("1200150031.png");
+vis_image[32] = Image("1200150032.png");
+vis_image[33] = Image("1200150033.png");
+vis_image[34] = Image("1200150034.png");
+vis_image[35] = Image("1200150035.png");
+vis_image[36] = Image("1200150036.png");
+vis_image[37] = Image("1200150037.png");
+vis_image[38] = Image("1200150038.png");
+vis_image[39] = Image("1200150039.png");
+vis_image[40] = Image("1200150040.png");
+vis_image[41] = Image("1200150041.png");
+vis_image[42] = Image("1200150042.png");
+vis_image[43] = Image("1200150043.png");
+vis_image[44] = Image("1200150044.png");
+vis_image[45] = Image("1200150045.png");
+vis_image[46] = Image("1200150046.png");
+vis_image[47] = Image("1200150047.png");
+vis_image[48] = Image("1200150048.png");
+vis_image[49] = Image("1200150049.png");
+vis_image[50] = Image("1200150050.png");
+vis_image[51] = Image("1200150051.png");
+vis_image[52] = Image("1200150052.png");
+vis_image[53] = Image("1200150053.png");
+vis_image[54] = Image("1200150054.png");
+vis_image[55] = Image("1200150055.png");
+vis_image[56] = Image("1200150056.png");
+vis_image[57] = Image("1200150057.png");
+vis_image[58] = Image("1200150058.png");
+vis_image[59] = Image("1200150059.png");
+vis_image[60] = Image("1200150060.png");
+vis_image[61] = Image("1200150061.png");
+vis_image[62] = Image("1200150062.png");
+vis_image[63] = Image("1200150063.png");
+vis_image[64] = Image("1200150064.png");
+vis_image[65] = Image("1200150065.png");
+vis_image[66] = Image("1200150066.png");
+vis_image[67] = Image("1200150067.png");
+vis_image[68] = Image("1200150068.png");
+vis_image[69] = Image("1200150069.png");
+vis_image[70] = Image("1200150070.png");
+vis_image[71] = Image("1200150071.png");
+vis_image[72] = Image("1200150072.png");
+vis_image[73] = Image("1200150073.png");
+vis_image[74] = Image("1200150074.png");
+vis_image[75] = Image("1200150075.png");
+vis_image[76] = Image("1200150076.png");
+vis_image[77] = Image("1200150077.png");
+vis_image[78] = Image("1200150078.png");
+vis_image[79] = Image("1200150079.png");
+vis_image[80] = Image("1200150080.png");
+vis_image[81] = Image("1200150081.png");
+vis_image[82] = Image("1200150082.png");
+vis_image[83] = Image("1200150083.png");
+vis_image[84] = Image("1200150084.png");
+vis_image[85] = Image("1200150085.png");
+vis_image[86] = Image("1200150086.png");
+vis_image[87] = Image("1200150087.png");
+vis_image[88] = Image("1200150088.png");
+vis_image[89] = Image("1200150089.png");
+vis_image[90] = Image("1200150090.png");
+vis_image[91] = Image("1200150091.png");
+vis_image[92] = Image("1200150092.png");
+vis_image[93] = Image("1200150093.png");
+vis_image[94] = Image("1200150094.png");
+vis_image[95] = Image("1200150095.png");
+vis_image[96] = Image("1200150096.png");
+vis_image[97] = Image("1200150097.png");
+vis_image[98] = Image("1200150098.png");
+vis_image[99] = Image("1200150099.png");
+vis_image[100] = Image("1200150100.png");
+vis_image[101] = Image("1200150101.png");
+vis_image[102] = Image("1200150102.png");
+vis_image[103] = Image("1200150103.png");
+vis_image[104] = Image("1200150104.png");
+vis_image[105] = Image("1200150105.png");
+vis_sprite = Sprite();
+
+#Place in the center
+vis_sprite.SetX(Window.GetWidth() / 2 - vis_image[1].GetWidth() / 2);
+vis_sprite.SetY(Window.GetHeight() / 2 - vis_image[1].GetHeight() / 2);
+
+progress = 1;
+
+status = "normal";
+
+fun dialog_setup()
+  {
+    local.box;
+    local.lock;
+    local.entry;
+
+    box.image = Image("box.png");
+    lock.image = Image("lock.png");
+    entry.image = Image("entry.png");
+
+    box.sprite = Sprite(box.image);
+    box.x = Window.GetX() + Window.GetWidth()  / 2 - box.image.GetWidth ()/2;
+    box.y = Window.GetY() + Window.GetHeight() / 1.25 - box.image.GetHeight()/1.25;
+    box.z = 10000;
+    box.sprite.SetPosition(box.x, box.y, box.z);
+
+    lock.sprite = Sprite(lock.image);
+    lock.x = box.x + box.image.GetWidth()/2.25 - (lock.image.GetWidth() + entry.image.GetWidth()) / 2.25;
+    lock.y = box.y + box.image.GetHeight()/1.32 - lock.image.GetHeight()/1.32;
+    lock.z = box.z + 1;
+    lock.sprite.SetPosition(lock.x, lock.y, lock.z);
+
+    entry.sprite = Sprite(entry.image);
+    entry.x = lock.x + lock.image.GetWidth();
+    entry.y = box.y + box.image.GetHeight()/1.1 - entry.image.GetHeight()/1.1;
+    entry.z = box.z + 1;
+    entry.sprite.SetPosition(entry.x, entry.y, entry.z);
+
+    global.dialog.box = box;
+    global.dialog.lock = lock;
+    global.dialog.entry = entry;
+    global.dialog.bullet_image = Image("bullet.png");
+    dialog_opacity (1);
+  }
+
+fun dialog_opacity(opacity)
+  {
+    dialog.box.sprite.SetOpacity (opacity);
+    dialog.lock.sprite.SetOpacity (opacity);
+    dialog.entry.sprite.SetOpacity (opacity);
+    for (index = 0; dialog.bullet[index]; index++)
+      {
+        dialog.bullet[index].sprite.SetOpacity(opacity);
+      }
+  }
+
+fun display_normal_callback ()
+  {
+    global.status = "normal";
+    if (global.dialog)
+      dialog_opacity (0);
+  }
+
+fun display_password_callback (prompt, bullets)
+  {
+    global.status = "password";
+    if (!global.dialog)
+	dialog_setup();
+    else
+	dialog_opacity(1);
+    for (index = 0; dialog.bullet[index] || index < bullets; index++)
+      {
+        if (!dialog.bullet[index])
+          {
+            dialog.bullet[index].sprite = Sprite(dialog.bullet_image);
+            dialog.bullet[index].x = dialog.entry.x + index * dialog.bullet_image.GetWidth();
+            dialog.bullet[index].y = dialog.entry.y + dialog.entry.image.GetHeight() / 1.27 - dialog.bullet_image.GetHeight() / 1.27;
+            dialog.bullet[index].z = dialog.entry.z + 1;
+            dialog.bullet[index].sprite.SetPosition(dialog.bullet[index].x, dialog.bullet[index].y, dialog.bullet[index].z);
+          }
+        if (index < bullets)
+          dialog.bullet[index].sprite.SetOpacity(1);
+        else
+          dialog.bullet[index].sprite.SetOpacity(0);
+      }
+  }
+
+Plymouth.SetDisplayNormalFunction(display_normal_callback);
+Plymouth.SetDisplayPasswordFunction(display_password_callback);
+
+fun refresh_callback ()
+  {
+    vis_sprite.SetImage(vis_image[Math.Int(progress / 3) % 296]);
+    progress++;
+  }
+
+Plymouth.SetRefreshFunction (refresh_callback);
