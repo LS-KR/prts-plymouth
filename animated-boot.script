@@ -200,7 +200,7 @@ fun refresh_callback() {
   if (progress < 210)
     vis_sprite.SetImage(vis_image[Math.Int(progress / 2) % 105]);
   else
-    vis_sprite.SetImage(vis_image[(Math.Int(progress / 2) - 105) % 53 + 52]);
+    vis_sprite.SetImage(vis_image[(Math.Int(progress / 2) - 105) % (105 - 31) + 31]);
   progress++;
 }
 
